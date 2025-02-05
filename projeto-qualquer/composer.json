@@ -1,0 +1,17 @@
+{
+    "name": "pichau/projeto-qualquer",
+    "autoload": {
+        "psr-4": {
+            "Pichau\\ProjetoQualquer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "evertonrafaelumbelino",
+            "email": "evertonrafaelumbelino@gmail.com"
+        }
+    ],
+    "require": {
+        "pichau/digital-cep": "^1.0"
+    }
+}

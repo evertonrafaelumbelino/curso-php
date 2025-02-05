@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d8eddf153432d83e0a91842679893403",
+    "packages": [
+        {
+            "name": "pichau/digital-cep",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/evertonrafaelumbelino/digital-cep.git",
+                "reference": "2c7deed7e6f7fa190f4b1740c632dec657440c20"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/evertonrafaelumbelino/digital-cep/zipball/2c7deed7e6f7fa190f4b1740c632dec657440c20",
+                "reference": "2c7deed7e6f7fa190f4b1740c632dec657440c20",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Search": "src/"
+                },
+                "psr-4": {
+                    "Pichau\\DigitalCep\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "evertonrafaelumbelino",
+                    "email": "evertonrafaelumbelino@gmail.com"
+                }
+            ],
+            "description": "Busca de cep online",
+            "support": {
+                "issues": "https://github.com/evertonrafaelumbelino/digital-cep/issues",
+                "source": "https://github.com/evertonrafaelumbelino/digital-cep/tree/1.0.0"
+            },
+            "time": "2025-02-04T13:37:35+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

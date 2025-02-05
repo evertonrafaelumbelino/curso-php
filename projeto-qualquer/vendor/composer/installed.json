@@ -1,0 +1,52 @@
+{
+    "packages": [
+        {
+            "name": "pichau/digital-cep",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/evertonrafaelumbelino/digital-cep.git",
+                "reference": "2c7deed7e6f7fa190f4b1740c632dec657440c20"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/evertonrafaelumbelino/digital-cep/zipball/2c7deed7e6f7fa190f4b1740c632dec657440c20",
+                "reference": "2c7deed7e6f7fa190f4b1740c632dec657440c20",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "time": "2025-02-04T13:37:35+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Search": "src/"
+                },
+                "psr-4": {
+                    "Pichau\\DigitalCep\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "evertonrafaelumbelino",
+                    "email": "evertonrafaelumbelino@gmail.com"
+                }
+            ],
+            "description": "Busca de cep online",
+            "support": {
+                "issues": "https://github.com/evertonrafaelumbelino/digital-cep/issues",
+                "source": "https://github.com/evertonrafaelumbelino/digital-cep/tree/1.0.0"
+            },
+            "install-path": "../pichau/digital-cep"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
